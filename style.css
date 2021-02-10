@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+    background-color: chartreuse
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    position: absolute;
+    height: 800px;
+    color: deepskyblue;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient (#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#name {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#bio {
+    padding: 50px;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.line {
+    height: 6px;
+    background-color: chartreuse;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+.menu {
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 25px;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    list-style: georgian;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: darkorange;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+#writings a {
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+#contact iframe{
+    width: 70%;
+}
+#contact{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: orangered;
+}
